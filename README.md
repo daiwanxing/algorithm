@@ -1,5 +1,9 @@
-# Vue 3 + Vite
+## 题目： 把1、2、3、4、……按如下规律排列(第一行特殊)，例如：数字3在第1行C列，那么，数字2013在第几行几列，并编写一个函数，输入任意数字，输出行和列。
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+| A  | B  | C  | D  | E  |    |
+|----|----|----|----|----|----|
+| 1  | 2  | 3  | 4  | 5  |    |
+| 9  | 8  | 7  | 6  |    |    |
+|    | 10 | 11 | 12 | 13 |    |
+| 17 | 16 | 15 | 14 |    |    |
+|    |    | 18 | 19 | 20 | 21 |
