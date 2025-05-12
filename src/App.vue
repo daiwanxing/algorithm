@@ -1,12 +1,12 @@
 <script setup>
 import { computed, h, ref } from "vue";
-import { getResultv2 } from "./algorithm";
+import { getResult } from "./algorithm";
 import { debounce } from "lodash-es";
 import { Modal } from "ant-design-vue";
 import zhCN from "ant-design-vue/es/locale/zh_CN";
 
 const num = ref();
-const list = computed(() => getResultv2(num.value) || []);
+const list = computed(() => getResult(num.value) || []);
 
 const shareCustomCell = (_, rowIndex, column) => {
   if (rowIndex === target.value.row && column.dataIndex === target.value.col) {
